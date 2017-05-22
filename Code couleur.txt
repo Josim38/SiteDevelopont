@@ -1,0 +1,7 @@
+Columbia Blue : #C0E0DE
+Jet : #353535
+White : #FFFFFF
+Rocket Metallic : #8A897C
+Gray-blue : #8491A3
+
+Typo : Roboto

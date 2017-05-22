@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+head {
+background:#FFF;
+
+}
+
+body {
+	margin:auto;
+	width:1300px;
+	background:#8A897C;
+	font-family: 'Roboto', sans-serif;
+	position
+}
+
+/*******LOGO********/
+
+.logo {
+	position:absolute;
+	margin-top:50px;
+	margin-left:35px; }
+	
+
+/*******MENU*******/
+.menuhaut ul li {
+	list-style:none;
+	padding-left:30px;
+	text-transform:uppercase;
+
+}
+.menuhaut li a {
+	background-color:white;
+ 	text-align:center;
+	margin-left:20px;
+}
+
+.menuhaut {
+	background-color:white;
+	width:1300px;
+	font-family: 'Kalam', cursive;
+	position:absolute;
+	margin-top:0px;
+	margin-left:35px;
+}
+.menuhaut a:visited{
+	color:black;
+}
+.menuhaut a:link {
+	margin-top:-18px;
+	margin-left:160px;
+}
+
+.menuhaut li {
+	
+	display:inline;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+/*********CAROUSSEL********/
+div#slider { 
+	position:absolute;
+	width:80%; 
+	max-width:1000px;
+	margin-top:50px;
+	margin-left:235px;
+	}
+
+div#slider figure {
+	position:relative;
+	width::500%;
+	margin: 0;
+	padding: 0;
+	font-size:: 0;
+	text-align:left; }
+	
+div#slider figure img {
+	width:20%;
+	height: auto;
+	float:left; }
+
+div#slider { 
+	width: 80%; 
+	max-width:1100px;
+	overflow:hidden;
+}
+
+@keyframes slidy {
+	0%v {left: 0%;}
+	20% {left: 0%;}
+	25% {left: -100%;}
+	45% {left: -100%;}
+	50% {left: -200%;}
+	70% {left: -200%;}
+	75% {left: -300%;}
+	95% {left: -300%;}
+	100% {left: -400%;}
+}
+
+div#slider figure {
+	position:relative;
+	width: 500%;
+	margin:0;
+	padding:0;
+	font-size: 0;
+	left: 0;
+	text-align: left;
+	animation: 30s slidy infinite;
+}
+
+/*********CONTENU*******/
+.texte_accueil {
+	background-color:#C0E0DE;
+	position:absolute;
+	width:1300px;
+	height:720px;
+	margin-top:235px;
+	margin-left:35px; }
+	
+.texte_accueil p {
+ 	margin-left :20px;
+ 	width:1250px;
+}
+
+.texte_accueil h1 {
+ margin-left:20px;
+}
+
+/********FOOTER************/
+
+footer {
+	position:absolute;
+	width:1300px;
+	margin-top: 915px;
+	margin-left:35px;
+	
+}
+
+.menubas ul li {
+	list-style:none;
+	padding-left:30px;
+	text-transform:uppercase;
+
+}
+.menubas li a {
+	background-color:#8491A3;
+ 	text-align:center;
+}
+.menubas {
+	background-color:#8491A3;
+	width:1300px;
+	position:absolute;
+	margin-top:0px;
+	margin-left:0px;
+}
+.menubas a:visited{
+	color:black;
+}
+.menubas a:link {
+	margin-top:-18px;
+	margin-left:20px;
+}
+
+.menubas li {
+	
+	display:inline;
+	margin-left:20px;
+	margin-top:20px;
+}
