@@ -45,6 +45,7 @@ body {
 }
 .menuhaut a:visited{
 	color:black;
+	
 }
 .menuhaut a:link {
 	margin-top:-18px;
@@ -127,6 +128,10 @@ div#slider figure {
  margin-left:20px;
 }
 
+.photo_groupe {
+	margin-left:370px;
+}
+
 /********FOOTER************/
 
 footer {
@@ -149,14 +154,20 @@ footer {
 }
 .menubas {
 	background-color:#8491A3;
+	font-family: 'Kalam', cursive;
 	width:1300px;
 	position:absolute;
 	margin-top:0px;
 	margin-left:0px;
 }
-.menubas a:visited{
+.menubas a:visited {
 	color:black;
 }
+
+.menubas a:hover {
+color:green;
+}
+
 .menubas a:link {
 	margin-top:-18px;
 	margin-left:20px;
