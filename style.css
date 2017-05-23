@@ -52,6 +52,10 @@ body {
 	margin-left:160px;
 }
 
+.menuhaut a:hover {
+	color:green;
+}
+
 .menuhaut li {
 	
 	display:inline;

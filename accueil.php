@@ -11,7 +11,8 @@
     		<img src="images/carou_a.jpg" alt="a">
     		<img src="images/carou_b.jpg" alt="b">
     		<img src="images/carou_c.jpg" alt="c">
-        	<img src="images/carou_a.jpg" alt="a">
+            <img src="images/carou_d.jpg" alt="d">
+            <img src="images/carou_a.jpg" alt="a">
     	</figure>
 	</div>
  <!-- Fin slider -->
